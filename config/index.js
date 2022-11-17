@@ -5,4 +5,7 @@ const dev = process.env.NODE_ENV !== 'production'
 // export const server = 'http://localhost:3000'
 
 // For local , use 3rd party API
-export const server = dev ? 'http://localhost:3000' : '/'
+// export const server = dev ? 'http://localhost:3000' : '/'
+
+
+export const server = 'https://next-crash-course-server.herokuapp.com'
